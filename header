@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Avicenna's Challenge</title>
+		<script type="text/javascript">
+			function validateForm() {
+				var elements = ["firstname", "lastname", "email", "feedback"];
+
+				for (var i = 0; i < elements.length; i++) {
+					var x = document.forms["feedbackForm"][elements[i]].value;
+					if(x == "" || x == null) {
+						alert("The form has to be filled out!");
+						return false;
+					}
+				}		
+			}
+		</script>
+	</head>
+	<body>
