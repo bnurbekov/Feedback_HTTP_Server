@@ -28,4 +28,5 @@
     The "ops" property of the JSON object now defines boolean operators placed between parameters in the following strict order: "email" <op> "firstname" <op> "lastname".
 
     api_client.py allows to send simple JSON POST requests. 
-   	Usage: api_client.py [--url server_url] --firstname FirstName --lastname LastName --ops BoolOperators  
+   	Usage: api_client.py [--url server_url] --firstname FirstName --lastname LastName --ops BoolOperators
+    
